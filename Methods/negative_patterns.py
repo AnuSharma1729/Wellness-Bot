@@ -24,7 +24,7 @@ school_keywords = [
 def get_depression_response():
     intro = "Hey! Are you okay? If you're going through something, you're not alone and help is available and . Here are some resources:"
     resource1 = "  -  National Suicide Prevention Lifeline: call 800-273-8255 or visit https://suicidepreventionlifeline.org/"
-    resource2 = "  -  If you want to talk to people, check out this Discord: https://discord.gg/ZUJ3zJRR"
+    resource2 = "  -  Check out this really cool server: https://discord.gg/guardiansmh"
     resource3 = "  -  Remember someone out there definitely loves you 3000: "
     resource3 = resource3 + random.choice(gifs)
     return "{intro}\n\n{resource1}\n{resource2}\n{resource3}".format(
